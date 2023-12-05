@@ -1,4 +1,7 @@
-import React from 'react';
+export const metadata = {
+    title: 'Details ',
+    description: 'This Is Details '
+}
 
 const Details = () => {
     return (

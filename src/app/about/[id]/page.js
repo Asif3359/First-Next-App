@@ -1,5 +1,9 @@
-const personAbout = ({params,searchParams}) => {
 
+export const metadata = {
+    title: 'About page | id',
+    description: 'This Is About Page |id',
+}
+const personAbout = ({ params, searchParams }) => {
     // console.log(params.id)
     return (
         <div>
